@@ -7,8 +7,8 @@ const port = process.env.PORT || 3000
 app.use(express.urlencoded({extended:false}))
 app.use(express.json())
 
-app.get('use',(req,res)=>{
-  console.log(req)
+app.get('/',(req,res)=>{
+  
   res.send("hola")
 }
 )
