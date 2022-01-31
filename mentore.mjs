@@ -1,4 +1,4 @@
-export default function mentor(){
+export default function ment(){
 	let profile={
 		img:"",
 		followers:123,
