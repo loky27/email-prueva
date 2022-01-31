@@ -1,5 +1,5 @@
 export default function ment(){
-	let profile={
+	let profi={
 		img:"",
 		followers:123,
 		price:12,
@@ -35,5 +35,5 @@ export default function ment(){
 		]
 
 	}
-	return profile
+	return profi
 }
