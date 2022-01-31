@@ -32,7 +32,7 @@ export default function mentor(){
 			usr:"pedro",
 			text:"me gusta ucho como explica"
 			}
-		],
+		]
 
 	};
 	return profile;
