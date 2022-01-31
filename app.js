@@ -1,5 +1,5 @@
 import mat from './materia.mjs'
-import mentor from './mentore.js'
+import mentor from './mentore.mjs'
 import express, { application } from 'express'
 const app = express()
 const port = process.env.PORT || 3000
