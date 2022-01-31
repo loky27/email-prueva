@@ -1,4 +1,5 @@
 import mat from './materia.mjs'
+import mentor from './mentore.js'
 import express, { application } from 'express'
 const app = express()
 const port = process.env.PORT || 3000
@@ -11,6 +12,9 @@ app.get('use',(req,res)=>{
 )
 app.get('/mate', (req, res) => {
   res.send(JSON.stringify(mat()))
+})
+apt.get('/mentor',(req,res)=>{
+  res.send(JSON.stringify(mentro()))
 })
 
 app.post('/users',(req,res)=>
