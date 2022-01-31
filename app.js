@@ -16,7 +16,7 @@ app.get('/mate', (req, res) => {
   res.send(JSON.stringify(mat()))
 })
 apt.get('/mentor',(req,res)=>{
-  res.send(JSON.stringify(mentro()))
+  res.send(JSON.stringify(mentor()))
 })
 
 app.post('/users',(req,res)=>
