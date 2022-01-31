@@ -34,6 +34,6 @@ export default function mentor(){
 			}
 		]
 
-	};
-	return profile;
+	}
+	return profile
 }
