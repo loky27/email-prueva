@@ -14,7 +14,7 @@ app.get('/',(req,res)=>{
 )
 app.get('/mate', (req, res) => {
   res.send(JSON.stringify(mat()))
-  res.headers('Content-Type': 'application/json')
+ 
 })
 
 app.post('/users',(req,res)=>
