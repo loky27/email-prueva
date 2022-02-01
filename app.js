@@ -13,7 +13,6 @@ app.get('/',(req,res)=>{
 }
 )
 app.get('/mate', (req, res) => {
-  res.json(null)
 res.json(mat())
 res.status(500).json({ error: 'message' })
  
