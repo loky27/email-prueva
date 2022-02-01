@@ -12,9 +12,7 @@ app.get('/',(req,res)=>{
   res.send("hola")
 }
 )
-app.get('/mate', (req, res) => {
-  res.send(JSON.stringify(mat()))
-})
+
 apt.get('/mentor',(req,res)=>{
   res.send(JSON.stringify(ment()))
 })
