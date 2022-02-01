@@ -12,9 +12,8 @@ app.get('/',(req,res)=>{
   res.send("hola")
 }
 )
-
-apt.get('/mentor',(req,res)=>{
-  res.send(JSON.stringify(ment()))
+app.get('/mate', (req, res) => {
+  res.send(JSON.stringify(mat()))
 })
 
 app.post('/users',(req,res)=>
